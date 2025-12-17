@@ -1,0 +1,64 @@
+###################################
+# 🌟🌟 BONUS IGNORE DB FOLDER🌟🌟
+###################################
+db/
+
+############################
+# Python cache & binaries
+############################
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+############################
+# Python packaging artifacts
+############################
+*.egg
+*.egg-info/
+dist/
+build/
+
+############################
+# Virtual environments
+############################
+.venv/
+venv/
+ENV/
+
+############################
+# Environment & secrets
+############################
+.env
+
+############################
+# Git & version control
+############################
+.git/
+.gitignore
+
+############################
+# Testing & coverage
+############################
+.pytest_cache/
+.coverage
+htmlcov/
+
+############################
+# OS / editor files
+############################
+.DS_Store
+Thumbs.db
+
+############################
+# Documentation (optional)
+############################
+*.md
+
+############################
+# Local data (use volumes instead)
+############################
+data/*.json
+data/*.db
